@@ -1,0 +1,26 @@
+.full-navigation {
+  height: 72px;
+  background-color: @nav-grey;
+  margin-top: 36px;
+}
+.full-navigation__list {
+  display: flex;
+  justify-content: center;
+  padding-top: 26px;
+  padding-left: 0;
+  margin: 0;
+}
+.full-navigation__item {
+  white-space: nowrap;
+  list-style-type: none;
+  & + &{
+    margin-left: 60px;
+  }
+}
+.full-navigation__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  &:hover{
+    border-bottom: 2px solid @title;
+  }
+}

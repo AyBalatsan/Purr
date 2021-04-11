@@ -1,0 +1,41 @@
+.newsletter {
+  display: block;
+  margin: 35px auto 0;
+  text-align: center;
+}
+.newsletter__desc {
+  font-size: 16px;
+  color: @newssletter;
+  margin-right: 15px;
+}
+.newsletter__data {
+  height: 41px;
+  width: 260px;
+  color: @title;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px solid @basic-grey;
+  padding-left: 15px;
+  &::placeholder{
+    color: @basic-grey;
+  }
+}
+.newsletter__button {
+  width: 137px;
+  height: 41px;
+  border: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: @basic-white;
+  background-color: @newssletter;
+  text-align: center;
+  padding: 0;
+  text-transform: uppercase;
+  margin-left: -4px;
+  &:hover{
+    background-color: @newssletter-hover;
+  }
+  &:focus{
+    background-color: @newssletter-focus;
+  }
+}

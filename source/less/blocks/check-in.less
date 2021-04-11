@@ -1,0 +1,36 @@
+.check-in {
+  margin-top: 255px;
+}
+.check-in__title {
+  margin: 0;
+  text-align: center;
+  font-size: 52px;
+  text-transform: uppercase;
+  color: @title;
+  position: relative;
+  &::before{
+    position: absolute;
+    left: 450px;
+    background: url(../../img/heard.png) center no-repeat;
+    background-size: contain;
+    content: " ";
+    width: 57px;
+    height: 59px;
+  }
+}
+.check-in__subtitle {
+  text-align: center;
+  width: 785px;
+  font-size: 30px;
+  line-height: 36px;
+  color: @title;
+  margin: 40px auto 0;
+}
+.check-in__ps {
+  float: right;
+  width: 420px;
+  font-size: 30px;
+  line-height: 36px;
+  color: @ps;
+  margin: 0 auto;
+}
